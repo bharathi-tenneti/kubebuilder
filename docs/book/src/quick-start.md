@@ -39,6 +39,8 @@ Also, you can install a master snapshot from `https://go.kubebuilder.io/dl/lates
 
 </aside>
 
+Optional: To enable kubebuilder auto completion, please [refer][./refernce/completion.md]
+
 ## Create a Project
 
 Create a directory, and then run the init command inside of it to initialize a new project. Follows an example.

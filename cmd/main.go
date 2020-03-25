@@ -96,6 +96,10 @@ func buildCmdTree() *cobra.Command {
 		rootCmd.AddCommand(alphaCmd)
 	}
 
+	// kubebuilder completion
+	completionCmd := newCompletionCmd()
+	rootCmd.AddCommand(completionCmd)
+
 	// kubebuilder create
 	createCmd := newCreateCmd()
 	// kubebuilder create api
